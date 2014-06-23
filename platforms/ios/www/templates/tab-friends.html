@@ -1,8 +1,13 @@
-<ion-view title="Friends">
-  <ion-content class="has-header">
+<ion-view title="Directors">
+  <ion-content ng-controller="FriendsCtrl" ng-init="" class="has-header">
+    <ion-refresher on-refresh="fetch()"
+      pulling-text="Pull to refresh..."
+      refreshing-text="Refreshing!"
+      refreshing-icon="ion-loading-c">
+    </ion-refresher>
     <ion-list>
       <ion-item ng-repeat="friend in friends" type="item-text-wrap" href="#/tab/friend/{{friend.id}}">
-        {{friend.full_name}}
+        {{friend.full_name.split(' ')[1]}}
       </ion-item>
     </ion-list>
   </ion-content>

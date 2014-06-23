@@ -1,25 +1,21 @@
-
-
 angular.module('starter.services', [])
 
-/**
- * A simple example service that returns some data.
- */
 .factory('Friends', function($http) {
-  // Might use a resource here that returns a JSON array
-
-  // Some fake testing data
   var directors;
 
   var endpoint = 'http://livestream-api.herokuapp.com/directors';
   
   var fetch = function(){
-    $http
+    var promise = $http
       .get(endpoint)
-      .success(function(data){
-        directors = data;
+      .then(function(response){
+        directors = response.data;
+        return response.data;
     });
+
+    return promise;  
   };
+  
   fetch();
 
 
@@ -39,6 +35,14 @@ angular.module('starter.services', [])
           return director;
         }
       }
-    }
-  };
+    },
+
+    add: function(id) {
+      $http
+        .post(endpoint, {livestream_id: id})
+        .success(function(data){
+          directors.push(data);
+        });
+      }
+    };
 });

@@ -6,13 +6,15 @@ angular.module('starter.services', [])
   var endpoint = 'http://livestream-api.herokuapp.com/directors';
   
   var fetch = function(){
-    $http
+    var promise = $http
       .get(endpoint)
-      .success(function(data){
-        directors = data;
+      .then(function(response){
+        directors = response.data;
+        return response.data;
     });
+
+    return promise;  
   };
-  fetch();
 
 
   return {
@@ -31,7 +33,14 @@ angular.module('starter.services', [])
           return director;
         }
       }
-    }
-    
-  };
+    },
+
+    add: function(id) {
+      $http
+        .post(endpoint, {livestream_id: id})
+        .success(function(data){
+          directors.push(data);
+        });
+      }
+    };
 });

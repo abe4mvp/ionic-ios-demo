@@ -1,12 +1,18 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope) {
+.controller('DashCtrl', function($scope, Friends) {
+  Friends.fetch();
 })
 
 .controller('FriendsCtrl', function($scope, Friends) {
-  var friends = Friends.all();
-  console.log(friends);
-  $scope.friends = friends;
+  
+  $scope.fetch = function(){
+    Friends.fetch().then(function(data){
+      $scope.friends = data;
+      $scope.$broadcast('scroll.refreshComplete');
+    });
+  };
+
 })
 
 .controller('FriendDetailCtrl', function($scope, $stateParams, Friends) {
@@ -17,10 +23,7 @@ angular.module('starter.controllers', [])
 })
 
 .controller('AccountCtrl', function($scope, $http, Friends) {
-  var endpoint = 'http://livestream-api.herokuapp.com/directors';
-  $scope.create = function(id) {
-    $http
-      .post(endpoint, {livestream_id: id})
-      .success(Friends.fetch);
+  $scope.create = function(id){
+    Friends.add(id); 
   };
 });

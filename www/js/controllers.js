@@ -5,9 +5,16 @@ angular.module('starter.controllers', [])
 })
 
 .controller('FriendsCtrl', function($scope, Friends) {
-  var friends = Friends.all();
-  console.log(friends);
-  $scope.friends = friends;
+
+  // should check for cache here
+  
+  $scope.fetch = function(){
+    Friends.fetch().then(function(data){
+      $scope.friends = data;
+      $scope.$broadcast('scroll.refreshComplete');
+    });
+  };
+
 })
 
 .controller('FriendDetailCtrl', function($scope, $stateParams, Friends) {
@@ -18,10 +25,8 @@ angular.module('starter.controllers', [])
 })
 
 .controller('AccountCtrl', function($scope, $http, Friends) {
-  var endpoint = 'http://livestream-api.herokuapp.com/directors';
-  $scope.create = function(id) {
-    $http
-      .post(endpoint, {livestream_id: id})
-      .success(Friends.fetch);
+  $scope.create = function(id){
+    // should invalidate a cache here
+    Friends.add(id); 
   };
 });
