@@ -166,3 +166,60 @@
 2014-06-23 00:32:05.888 HelloCordova[17587:70b] [CDVTimer][TotalPluginStartup] 1.326978ms
 2014-06-23 00:32:06.158 HelloCordova[17587:70b] Resetting plugins due to page load.
 2014-06-23 00:32:06.357 HelloCordova[17587:70b] Finished load of: file:///Users/Abe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/14A272E5-36E6-4C2F-B268-F85638801406/HelloCordova.app/www/index.html#/tab/dash
+2014-06-23 00:33:24.458 HelloCordova[17587:70b] [{"livestream_id":11,"full_name":"Charles-Eric Dessart","dob":"1986-06-24T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":2}]
+2014-06-23 00:33:26.468 HelloCordova[17587:70b] 2 2
+2014-06-23 00:33:26.469 HelloCordova[17587:70b] {"livestream_id":11,"full_name":"Charles-Eric Dessart","dob":"1986-06-24T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":2,"$$hashKey":"00X"}
+2014-06-23 00:36:01.890 HelloCordova[17837:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-23 00:36:01.904 HelloCordova[17837:70b] Unlimited access to network resources
+2014-06-23 00:36:01.940 HelloCordova[17837:70b] [CDVTimer][keyboard] 0.135958ms
+2014-06-23 00:36:01.941 HelloCordova[17837:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-23 00:36:01.941 HelloCordova[17837:70b] [CDVTimer][statusbar] 0.496030ms
+2014-06-23 00:36:01.942 HelloCordova[17837:70b] [CDVTimer][TotalPluginStartup] 1.589000ms
+2014-06-23 00:36:02.235 HelloCordova[17837:70b] Resetting plugins due to page load.
+2014-06-23 00:36:02.483 HelloCordova[17837:70b] Finished load of: file:///Users/Abe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/14A272E5-36E6-4C2F-B268-F85638801406/HelloCordova.app/www/index.html#/tab/dash
+2014-06-23 00:36:05.898 HelloCordova[17837:70b] [{"livestream_id":11,"full_name":"Charles-Eric Dessart","dob":"1986-06-24T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":2}]
+2014-06-23 00:36:07.552 HelloCordova[17837:70b] 2 2
+2014-06-23 00:36:07.552 HelloCordova[17837:70b] {"livestream_id":11,"full_name":"Charles-Eric Dessart","dob":"1986-06-24T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":2,"$$hashKey":"00W"}
+2014-06-23 00:36:16.170 HelloCordova[17837:70b] [{"livestream_id":11,"full_name":"Charles-Eric Dessart","dob":"1986-06-24T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":2,"$$hashKey":"00W"}]
+2014-06-23 00:40:55.206 HelloCordova[18030:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-23 00:40:55.262 HelloCordova[18030:70b] Unlimited access to network resources
+2014-06-23 00:40:55.409 HelloCordova[18030:70b] [CDVTimer][keyboard] 0.098050ms
+2014-06-23 00:40:55.409 HelloCordova[18030:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-23 00:40:55.410 HelloCordova[18030:70b] [CDVTimer][statusbar] 0.456989ms
+2014-06-23 00:40:55.410 HelloCordova[18030:70b] [CDVTimer][TotalPluginStartup] 1.329005ms
+2014-06-23 00:40:55.856 HelloCordova[18030:70b] Resetting plugins due to page load.
+2014-06-23 00:40:56.209 HelloCordova[18030:70b] Finished load of: file:///Users/Abe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/14A272E5-36E6-4C2F-B268-F85638801406/HelloCordova.app/www/index.html#/tab/dash
+2014-06-23 00:41:08.385 HelloCordova[18030:70b] [{"livestream_id":11,"full_name":"Charles-Eric Dessart","dob":"1986-06-24T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":2}]
+2014-06-23 00:41:09.441 HelloCordova[18030:70b] 2 2
+2014-06-23 00:41:09.442 HelloCordova[18030:70b] {"livestream_id":11,"full_name":"Charles-Eric Dessart","dob":"1986-06-24T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":2,"$$hashKey":"012"}
+2014-06-23 00:41:10.630 HelloCordova[18030:70b] [{"livestream_id":11,"full_name":"Charles-Eric Dessart","dob":"1986-06-24T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":2,"$$hashKey":"012"}]
+2014-06-23 00:41:56.370 HelloCordova[18030:70b] Resetting plugins due to page load.
+2014-06-23 00:41:57.274 HelloCordova[18030:70b] Finished load of: http://livestream-api.herokuapp.com/directors
+2014-06-23 01:08:21.764 HelloCordova[18377:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-23 01:08:21.820 HelloCordova[18377:70b] Unlimited access to network resources
+2014-06-23 01:08:22.004 HelloCordova[18377:70b] [CDVTimer][keyboard] 0.135005ms
+2014-06-23 01:08:22.005 HelloCordova[18377:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-23 01:08:22.005 HelloCordova[18377:70b] [CDVTimer][statusbar] 0.526011ms
+2014-06-23 01:08:22.006 HelloCordova[18377:70b] [CDVTimer][TotalPluginStartup] 1.722991ms
+2014-06-23 01:08:22.492 HelloCordova[18377:70b] Resetting plugins due to page load.
+2014-06-23 01:08:22.779 HelloCordova[18377:70b] Finished load of: file:///Users/Abe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/14A272E5-36E6-4C2F-B268-F85638801406/HelloCordova.app/www/index.html#/tab/dash
+2014-06-23 01:08:45.481 HelloCordova[18377:70b] [{"livestream_id":11,"full_name":"Charles-Eric Dessart","dob":"1986-06-24T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":2},{"livestream_id":6488818,"full_name":"Martin Scorsese","dob":"1942-11-17T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":3}]
+2014-06-23 01:09:20.078 HelloCordova[18377:70b] [{"livestream_id":11,"full_name":"Charles-Eric Dessart","dob":"1986-06-24T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":2,"$$hashKey":"00X"},{"livestream_id":6488818,"full_name":"Martin Scorsese","dob":"1942-11-17T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":3,"$$hashKey":"00Y"}]
+2014-06-23 01:09:21.887 HelloCordova[18377:70b] [{"livestream_id":11,"full_name":"Charles-Eric Dessart","dob":"1986-06-24T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":2,"$$hashKey":"00X"},{"livestream_id":6488818,"full_name":"Martin Scorsese","dob":"1942-11-17T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":3,"$$hashKey":"00Y"}]
+2014-06-23 01:09:39.253 HelloCordova[18550:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-23 01:09:39.261 HelloCordova[18550:70b] Unlimited access to network resources
+2014-06-23 01:09:39.284 HelloCordova[18550:70b] [CDVTimer][keyboard] 0.079036ms
+2014-06-23 01:09:39.284 HelloCordova[18550:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-23 01:09:39.284 HelloCordova[18550:70b] [CDVTimer][statusbar] 0.459969ms
+2014-06-23 01:09:39.285 HelloCordova[18550:70b] [CDVTimer][TotalPluginStartup] 1.291990ms
+2014-06-23 01:09:39.533 HelloCordova[18550:70b] Resetting plugins due to page load.
+2014-06-23 01:09:39.732 HelloCordova[18550:70b] Finished load of: file:///Users/Abe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/14A272E5-36E6-4C2F-B268-F85638801406/HelloCordova.app/www/index.html#/tab/dash
+2014-06-23 01:09:43.571 HelloCordova[18550:70b] [{"livestream_id":11,"full_name":"Charles-Eric Dessart","dob":"1986-06-24T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":2},{"livestream_id":6488818,"full_name":"Martin Scorsese","dob":"1942-11-17T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":3},{"livestream_id":6488824,"full_name":"James Cameron","dob":"1954-08-16T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":4}]
+2014-06-23 01:12:48.702 HelloCordova[18742:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-23 01:12:48.716 HelloCordova[18742:70b] Unlimited access to network resources
+2014-06-23 01:12:48.748 HelloCordova[18742:70b] [CDVTimer][keyboard] 0.124991ms
+2014-06-23 01:12:48.748 HelloCordova[18742:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-23 01:12:48.749 HelloCordova[18742:70b] [CDVTimer][statusbar] 0.514030ms
+2014-06-23 01:12:48.749 HelloCordova[18742:70b] [CDVTimer][TotalPluginStartup] 1.682997ms
+2014-06-23 01:12:49.056 HelloCordova[18742:70b] Resetting plugins due to page load.
+2014-06-23 01:12:49.322 HelloCordova[18742:70b] Finished load of: file:///Users/Abe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/14A272E5-36E6-4C2F-B268-F85638801406/HelloCordova.app/www/index.html#/tab/dash
