@@ -16,9 +16,11 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('AccountCtrl', function($scope, $http) {
+.controller('AccountCtrl', function($scope, $http, Friends) {
   var endpoint = 'http://livestream-api.herokuapp.com/directors';
   $scope.create = function(id) {
-    $http.post(endpoint, {livestream_id: id});
+    $http
+      .post(endpoint, {livestream_id: id})
+      .success(Friends.fetch);
   };
 });

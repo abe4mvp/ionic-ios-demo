@@ -13,19 +13,23 @@ angular.module('starter.services', [])
 
   var endpoint = 'http://livestream-api.herokuapp.com/directors';
   
-
+  var fetch = function(){
+    $http
+      .get(endpoint)
+      .success(function(data){
+        directors = data;
+    });
+  };
+  fetch();
 
 
   return {
     all: function() {
-      return $http
-        .get(endpoint)
-        .success(function(data){
-          directors = data;
-          return directors;
-      });
+     return directors;
     },
-    
+
+    fetch: fetch,
+
     get: function(friendId) {
       var id = Number(friendId);
       for (var i = 0; i < directors.length; i++) {

@@ -223,3 +223,37 @@
 2014-06-23 01:12:48.749 HelloCordova[18742:70b] [CDVTimer][TotalPluginStartup] 1.682997ms
 2014-06-23 01:12:49.056 HelloCordova[18742:70b] Resetting plugins due to page load.
 2014-06-23 01:12:49.322 HelloCordova[18742:70b] Finished load of: file:///Users/Abe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/14A272E5-36E6-4C2F-B268-F85638801406/HelloCordova.app/www/index.html#/tab/dash
+2014-06-23 01:13:22.221 HelloCordova[18742:70b] {}
+2014-06-23 01:13:24.655 HelloCordova[18742:70b] {}
+2014-06-23 01:13:27.236 HelloCordova[18742:70b] {}
+2014-06-23 01:13:44.637 HelloCordova[18742:70b] 2 
+2014-06-23 01:13:44.638 HelloCordova[18742:70b] 3 
+2014-06-23 01:13:44.638 HelloCordova[18742:70b] 4 
+2014-06-23 01:13:47.341 HelloCordova[18742:70b] {}
+2014-06-23 01:13:48.445 HelloCordova[18742:70b] 2 
+2014-06-23 01:13:48.445 HelloCordova[18742:70b] 3 
+2014-06-23 01:13:48.446 HelloCordova[18742:70b] 4 
+2014-06-23 01:13:49.632 HelloCordova[18742:70b] {}
+2014-06-23 01:14:41.152 HelloCordova[18742:70b] {}
+2014-06-23 01:14:42.430 HelloCordova[18742:70b] {}
+2014-06-23 01:14:43.613 HelloCordova[18742:70b] {}
+2014-06-23 01:14:45.240 HelloCordova[18742:70b] 2 
+2014-06-23 01:14:45.240 HelloCordova[18742:70b] 3 
+2014-06-23 01:14:45.241 HelloCordova[18742:70b] 4 
+2014-06-23 01:14:46.599 HelloCordova[18742:70b] {}
+2014-06-23 01:20:19.021 HelloCordova[19031:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-23 01:20:19.032 HelloCordova[19031:70b] Unlimited access to network resources
+2014-06-23 01:20:19.062 HelloCordova[19031:70b] [CDVTimer][keyboard] 0.129998ms
+2014-06-23 01:20:19.063 HelloCordova[19031:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-23 01:20:19.063 HelloCordova[19031:70b] [CDVTimer][statusbar] 0.505030ms
+2014-06-23 01:20:19.063 HelloCordova[19031:70b] [CDVTimer][TotalPluginStartup] 1.622975ms
+2014-06-23 01:20:19.400 HelloCordova[19031:70b] Resetting plugins due to page load.
+2014-06-23 01:20:19.633 HelloCordova[19031:70b] Finished load of: file:///Users/Abe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/14A272E5-36E6-4C2F-B268-F85638801406/HelloCordova.app/www/index.html#/tab/dash
+2014-06-23 01:20:27.569 HelloCordova[19031:70b] [{"livestream_id":11,"full_name":"Charles-Eric Dessart","dob":"1986-06-24T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":2},{"livestream_id":6488818,"full_name":"Martin Scorsese","dob":"1942-11-17T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":3},{"livestream_id":6488824,"full_name":"James Cameron","dob":"1954-08-16T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":4}]
+2014-06-23 01:20:30.646 HelloCordova[19031:70b] 2 4
+2014-06-23 01:20:30.647 HelloCordova[19031:70b] 3 4
+2014-06-23 01:20:30.647 HelloCordova[19031:70b] 4 4
+2014-06-23 01:20:30.647 HelloCordova[19031:70b] {"livestream_id":6488824,"full_name":"James Cameron","dob":"1954-08-16T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":4,"$$hashKey":"00Z"}
+2014-06-23 01:20:32.128 HelloCordova[19031:70b] [{"livestream_id":11,"full_name":"Charles-Eric Dessart","dob":"1986-06-24T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":2,"$$hashKey":"00X"},{"livestream_id":6488818,"full_name":"Martin Scorsese","dob":"1942-11-17T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":3,"$$hashKey":"00Y"},{"livestream_id":6488824,"full_name":"James Cameron","dob":"1954-08-16T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":4,"$$hashKey":"00Z"}]
+2014-06-23 01:20:49.619 HelloCordova[19031:70b] [{"livestream_id":11,"full_name":"Charles-Eric Dessart","dob":"1986-06-24T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":2},{"livestream_id":6488818,"full_name":"Martin Scorsese","dob":"1942-11-17T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":3},{"livestream_id":6488824,"full_name":"James Cameron","dob":"1954-08-16T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":4},{"livestream_id":6488823,"full_name":"Terri Flynnstress","dob":"1978-04-25T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":5}]
+2014-06-23 01:20:51.595 HelloCordova[19031:70b] [{"livestream_id":11,"full_name":"Charles-Eric Dessart","dob":"1986-06-24T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":2,"$$hashKey":"01S"},{"livestream_id":6488818,"full_name":"Martin Scorsese","dob":"1942-11-17T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":3,"$$hashKey":"01T"},{"livestream_id":6488824,"full_name":"James Cameron","dob":"1954-08-16T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":4,"$$hashKey":"01U"},{"livestream_id":6488823,"full_name":"Terri Flynnstress","dob":"1978-04-25T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":5,"$$hashKey":"01V"}]
