@@ -443,3 +443,21 @@
 2014-06-23 02:55:56.232 HelloCordova[21536:70b] [CDVTimer][TotalPluginStartup] 1.612008ms
 2014-06-23 02:55:56.589 HelloCordova[21536:70b] Resetting plugins due to page load.
 2014-06-23 02:55:56.842 HelloCordova[21536:70b] Finished load of: file:///Users/Abe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/14A272E5-36E6-4C2F-B268-F85638801406/HelloCordova.app/www/index.html#/tab/dash
+2014-06-23 03:00:08.015 HelloCordova[21744:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-23 03:00:08.023 HelloCordova[21744:70b] Unlimited access to network resources
+2014-06-23 03:00:08.049 HelloCordova[21744:70b] [CDVTimer][keyboard] 0.091016ms
+2014-06-23 03:00:08.049 HelloCordova[21744:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-23 03:00:08.049 HelloCordova[21744:70b] [CDVTimer][statusbar] 0.376999ms
+2014-06-23 03:00:08.050 HelloCordova[21744:70b] [CDVTimer][TotalPluginStartup] 1.245975ms
+2014-06-23 03:00:08.277 HelloCordova[21744:70b] Resetting plugins due to page load.
+2014-06-23 03:00:08.514 HelloCordova[21744:70b] Finished load of: file:///Users/Abe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/14A272E5-36E6-4C2F-B268-F85638801406/HelloCordova.app/www/index.html#/tab/dash
+2014-06-23 03:00:19.627 HelloCordova[21744:70b] 2 3
+2014-06-23 03:00:19.628 HelloCordova[21744:70b] 3 3
+2014-06-23 03:00:19.629 HelloCordova[21744:70b] {"livestream_id":6488818,"full_name":"Martin Scorsese","dob":"1942-11-17T00:00:00.000Z","favorite_camera":"","favorite_movies":"","id":3,"$$hashKey":"00O"}
+2014-06-23 03:01:07.824 HelloCordova[21744:70b] 2 7
+2014-06-23 03:01:07.825 HelloCordova[21744:70b] 3 7
+2014-06-23 03:01:07.825 HelloCordova[21744:70b] 4 7
+2014-06-23 03:01:07.826 HelloCordova[21744:70b] 5 7
+2014-06-23 03:01:07.826 HelloCordova[21744:70b] 6 7
+2014-06-23 03:01:07.826 HelloCordova[21744:70b] 7 7
+2014-06-23 03:01:07.827 HelloCordova[21744:70b] {"livestream_id":12344,"full_name":"Brad Bradstreet","dob":"","favorite_camera":"","favorite_movies":"","id":7,"$$hashKey":"03Q"}

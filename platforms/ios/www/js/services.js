@@ -15,8 +15,6 @@ angular.module('starter.services', [])
 
     return promise;  
   };
-  
-  fetch();
 
 
   return {

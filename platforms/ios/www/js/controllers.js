@@ -5,6 +5,8 @@ angular.module('starter.controllers', [])
 })
 
 .controller('FriendsCtrl', function($scope, Friends) {
+
+  // should check for cache here
   
   $scope.fetch = function(){
     Friends.fetch().then(function(data){
@@ -24,6 +26,7 @@ angular.module('starter.controllers', [])
 
 .controller('AccountCtrl', function($scope, $http, Friends) {
   $scope.create = function(id){
+    // should invalidate a cache here
     Friends.add(id); 
   };
 });
